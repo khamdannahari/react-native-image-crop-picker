@@ -17,7 +17,7 @@
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
-                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:name="com.reactnative.ivpusic.imagepicker.CustomFileProvider"
                 android:resource="@xml/ivpusic_imagepicker_provider_paths" />
         </provider>
 
